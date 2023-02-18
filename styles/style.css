@@ -1,0 +1,45 @@
+:root {
+  --white-color: #f2f3f6;
+  --black-color: #060620;
+
+  --tinttwo-primary-color: #b3e2dd;
+  --tintone-primary-color: #8ed3cd;
+  --primary-color: #42b6ab;
+  --shadeone-primary-color: #286d67;
+  --shadetwo-primary-color: #143733;
+
+  --gray-color: #b2b5c9;
+  --dark-gray-color: #4a4c53;
+
+  --blue-color: #4ad0c3;
+  --red-color: #e55e03;
+  --green-color: #224229;
+  --yellow-color: #d7921e;
+
+
+}
+
+.header {
+  padding: 1rem 0;
+  font-weight: 600;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 1.6rem;
+}
+
+.nav__list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 1.8rem;
+  align-items: center;
+}
+
+.logo {
+  max-height: 3rem;
+  padding-right: 1rem;
+}
