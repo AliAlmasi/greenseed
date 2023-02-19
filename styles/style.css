@@ -2,25 +2,25 @@
   --white-color: #f2f3f6;
   --black-color: #060620;
 
-  --tinttwo-primary-color: #b3e2dd;
-  --tintone-primary-color: #8ed3cd;
-  --primary-color: #42b6ab;
-  --shadeone-primary-color: #286d67;
-  --shadetwo-primary-color: #143733;
+  --tinttwo-primary-color: #bce4e1;
+  --tintone-primary-color: #78c9c2;
+  --primary-color: #1ea59a;
+  --shadeone-primary-color: #12635c;
+  --shadetwo-primary-color: #09312e;
 
   --gray-color: #b2b5c9;
   --dark-gray-color: #4a4c53;
 
-  --blue-color: #4ad0c3;
-  --red-color: #e55e03;
-  --green-color: #224229;
-  --yellow-color: #d7921e;
+  --blue-color: #91e9e2;
+  --orange-color: #f68328;
+  --shadeone-orage-color: #944f18;
+  --yellow-color: #feb800;
 
 
 }
 
-.header {
-  padding: 1rem 0;
+.section-header {
+  padding: 1.6rem 0;
   font-weight: 600;
 }
 
@@ -42,4 +42,75 @@
 .logo {
   max-height: 3rem;
   padding-right: 1rem;
+}
+
+.section-hero {
+  background-color: var(--blue-color);
+  /* padding: 4.8rem 0 9.6rem 0; */
+  border-radius: 1.5rem;
+  overflow: hidden;
+}
+
+.hero {
+  display: flex;
+  gap: 9.6rem;
+  align-items: center;
+  /* padding: 0 4.5rem; */
+  justify-content: space-between;
+}
+
+.hero__text {
+  padding: 0 4rem;
+}
+
+.hero__text-desc {
+  font-size: 1.8rem;
+  color: var(--dark-gray-color);
+  margin: 2.5rem 0;
+}
+
+.hero__text-input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.7rem;
+  margin-top: 4.5rem;
+}
+
+.hero__text-input-svg {
+  padding: 0.5rem;
+  background-color: var(--orange-color);
+  border-radius: 50%;
+  height: 4rem;
+  width: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.2s, color 0.2s;
+  margin-left: -2.5rem;
+}
+
+.hero__text-input-svg svg {
+  height: 2.2rem;
+  width: 2.2rem;
+}
+
+.hero__text-input-svg:hover {
+  cursor: pointer;
+  background-color: var(--shadeone-orage-color);
+  color: #fff;
+}
+
+.hero__input {
+  width: 30rem;
+  font-family: inherit;
+  font-size: 1.6rem;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+}
+
+.hero__image {
+  height: 40rem;
 }
